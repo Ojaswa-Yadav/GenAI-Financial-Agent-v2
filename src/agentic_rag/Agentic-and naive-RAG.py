@@ -29,7 +29,7 @@ __Evaluation Metrics:__
 !pip install pytrec_eval
 
 import os
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'your-key'
 
 from copy import copy
 from datasets import load_dataset, concatenate_datasets
