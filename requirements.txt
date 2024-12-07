@@ -1,0 +1,8 @@
+transformers==4.36.0
+torch>=1.9.0
+sentence-transformers
+chromadb
+nltk
+numpy
+scikit-learn
+pandas
