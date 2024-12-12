@@ -19,10 +19,11 @@ The GenAI Financial Agent is a conversational AI system designed to assist users
   - Real-time question-answering using the fine-tuned model.
 
 
--Evaluating RAG and Agentic RAG Compared to Baseline Qwen-2.5 3B
+## Installation
 
-You can import the code to your IDE using:
+You can install the GenAI Financial Agent by running these commands:
 
+```bash
 git clone https://github.com/Ojaswa-Yadav/GenAI-Financial-Agent-v2.git
-cd Financial-Agent
+cd GenAI-Financial-Agent-v2
 pip install -r requirements.txt
