@@ -10,7 +10,7 @@ This project provides a seamless and intelligent solution for financial decision
 
 ## **Features**
 
-### ** 1. QLoRA Fine-Tuning**
+### **1. QLoRA Fine-Tuning**
 - **Memory Efficiency:**
   - Used **4-bit quantization** for training on consumer GPUs, significantly reducing memory requirements.
 - **Task-Specific Optimization:**
