@@ -6,6 +6,53 @@ The **GenAI Financial Agent** is a conversational AI system designed to assist u
 
 This project provides a seamless and intelligent solution for financial decision-making, combining the latest advancements in generative AI and financial data analysis.
 
+
+---
+
+## **Key Highlights**
+
+### **QLoRA Fine-Tuning**
+- **Memory Efficiency:**
+  - Used **4-bit quantization** for training on consumer GPUs, significantly reducing memory requirements.
+- **Task-Specific Optimization:**
+  - Fine-tuned specific attention layers for financial Q&A tasks.
+- **Domain Adaptation:**
+  - Trained on the **Wealth Alpaca Dataset** to enhance the model's understanding of the financial domain.
+
+
+- **Naive RAG:**
+  - Integrated **ChromaDB** with **MiniLM embeddings** for document retrieval, ensuring fast and accurate responses.
+- **Agentic RAG:**
+  - Enhanced with agentic reasoning capabilities to handle more complex financial decision-making tasks.
+
+### **Performance Results**
+| Metric               | Score |
+|-----------------------|-------|
+| **Context Precision** | 100%  |
+| **Answer Relevance**  | 84%   |
+| **Faithfulness**      | 80%   |
+
+---
+
+## **Features**
+
+### **1. Fine-Tuned Qwen 2.5 Model**
+- Optimized using **QLoRA** for parameter-efficient training.
+- Domain-specific fine-tuning using the **Wealth Alpaca Dataset**.
+
+### **2. Retrieval-Augmented Generation (RAG)**
+- **Naive RAG:**
+  - Simple and efficient retrieval-based answer generation.
+- **Agentic RAG:**
+  - Enhanced reasoning for complex financial tasks.
+- **Fine-Tuned RAG:**
+  - Retrieval-based response generation using the QLoRA-tuned Qwen 2.5 model.
+
+### **3. Interactive Inference**
+- Real-time question-answering powered by the fine-tuned model and RAG.
+
+---
+
 ---
 
 ## **Features**
