@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 GenAI-Financial-Agent-v2/
 ├── data/                                    # Financial datasets for training and inference
-│   ├── Combining_data                        # Raw datasets combined together
+│   ├── Combining_data                       # Raw datasets combined together
 ├── models/                                  # Pre-trained and fine-tuned models
 │   ├── agentic_rag                          # RAG with gpt agents
 │   ├── fine_tuning                          # Fine tuned Qwen 2.5 3B model 
