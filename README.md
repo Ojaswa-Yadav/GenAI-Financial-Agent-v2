@@ -10,9 +10,13 @@ This project provides a seamless and intelligent solution for financial decision
 
 ## **Features**
 
-### **1. Fine-Tuned Qwen 2.5 Model**
-- Optimized using **LoRA** for parameter-efficient training.
-- Trained on a curated dataset of **Wealth Alpaca**, enabling domain-specific expertise.
+### ** 1 QLoRA Fine-Tuning**
+- **Memory Efficiency:**
+  - Used **4-bit quantization** for training on consumer GPUs, significantly reducing memory requirements.
+- **Task-Specific Optimization:**
+  - Fine-tuned specific attention layers for financial Q&A tasks.
+- **Domain Adaptation:**
+  - Trained on the **Wealth Alpaca Dataset** to enhance the model's understanding of the financial domain.
 
 ### **2. Retrieval-Augmented Generation (RAG)**
 - **Naive RAG:** 
